@@ -1,8 +1,10 @@
 # Block diagonalization of the dynamical matrix by crystal angular momentum (CAM)
 Due to screw symmetry, the following equation holds for the dynamical matrix
 $\underline{V} _ {L,1}(k _ z)$.
+
 $$\underline{V} _ {L,1}(k _ z)
 =\underline{C} _ 3\underline{V} _ {L,1}(k _ z)\underline{C} _ 3^{\mathrm{T}}$$
+
 Here, $\underline{C} _ 3$ can be written as
 $\underline{C} _ 3
 =T\otimes C _ 3$
@@ -37,7 +39,7 @@ u _ 0=
 1/\sqrt{3}\newline1/\sqrt{3}\newline1/\sqrt{3}
 \end{pmatrix} 
 \quad
-(\text{eigenvalue is}\,\,1),
+(\text{eigenvalue is}\quad1),
 $$
 
 $$
@@ -46,7 +48,7 @@ u _ 1=
 1/\sqrt{3}\newline\zeta^{-1}/\sqrt{3}\newline\zeta/\sqrt{3}
 \end{pmatrix} 
 \quad
-(\text{eigenvalue is}\,\,\zeta),
+(\text{eigenvalue is}\quad\zeta),
 $$
 
 $$
@@ -55,7 +57,7 @@ u _ 2=
 1/\sqrt{3}\newline\zeta/\sqrt{3}\newline\zeta^{-1}/\sqrt{3}
 \end{pmatrix} 
 \quad
-(\text{eigenvalue is}\,\,\zeta^{-1}).
+(\text{eigenvalue is}\quad\zeta^{-1}).
 $$
 
 The eigenvectors of $C _ 3$ are
@@ -66,7 +68,7 @@ w _ 0=
 0\newline0\newline1
 \end{pmatrix} 
 \quad
-(\text{eigenvalue is}\,\,1),
+(\text{eigenvalue is}\quad1),
 $$
 
 $$
@@ -75,7 +77,7 @@ w _ 1=
 1/\sqrt{2}\newline-i/\sqrt{2}\newline0
 \end{pmatrix} 
 \quad
-(\text{eigenvalue is}\,\,\zeta),
+(\text{eigenvalue is}\quad\zeta),
 $$
 
 $$
@@ -84,7 +86,7 @@ w _ 2=
 1/\sqrt{2} \newline i/\sqrt{2}\newline0
 \end{pmatrix} 
 \quad
-(\text{eigenvalue is}\,\,\zeta^{-1}).
+(\text{eigenvalue is}\quad\zeta^{-1}).
 $$
 
 From these, the eigenvectors of
@@ -93,24 +95,24 @@ $\underline{C} _ 3
 can be constructed.
 
 $$
-u _ 0\otimes w _ 0,\,
-u _ 1\otimes w _ 2,\,
+u _ 0\otimes w _ 0,\quad
+u _ 1\otimes w _ 2,\quad
 u _ 2\otimes w _ 1\quad
-(\text{eigenvalue is}\,\,1)
+(\text{eigenvalue is}\quad1)
 $$
 
 $$
-u _ 0\otimes w _ 1,\,
-u _ 1\otimes w _ 0,\,
+u _ 0\otimes w _ 1,\quad
+u _ 1\otimes w _ 0,\quad
 u _ 2\otimes w _ 2\quad
-(\text{eigenvalue is}\,\,\zeta)
+(\text{eigenvalue is}\quad\zeta)
 $$
 
 $$
-u _ 0\otimes w _ 2,\,
-u _ 1\otimes w _ 1,\,
+u _ 0\otimes w _ 2,\quad
+u _ 1\otimes w _ 1,\quad
 u _ 2\otimes w _ 0\quad
-(\text{eigenvalue is}\,\,\zeta^{-1})
+(\text{eigenvalue is}\quad\zeta^{-1})
 $$
 
 Since these eigenvectors form an orthonormal system, the matrix
@@ -151,7 +153,7 @@ I=\begin{pmatrix}
 1&0&0\newline
 0&1&0\newline
 0&0&1
-\end{pmatrix},~
+\end{pmatrix},\quad
 O=\begin{pmatrix} 
 0&0&0\newline
 0&0&0\newline
