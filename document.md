@@ -20,13 +20,12 @@ $$T =
 $$
 
 $$
-C _ 3 = \left(
-\begin{matrix} 
+C _ 3 =
+\begin{pmatrix} 
 \cos(2\pi/3)&-\sin(2\pi/3)&0\newline
 \sin(2\pi/3)&\cos(2\pi/3)&0\newline
 0&0&1
-\end{matrix} 
-\right)
+\end{pmatrix} 
 $$
 
 Let $\zeta=e^{2\pi i/3}$.
@@ -34,33 +33,27 @@ The eigenvectors of $T$ are
 
 $$
 u _ 0=
-\left(
-\begin{matrix} 
+\begin{pmatrix} 
 1/\sqrt{3}\newline1/\sqrt{3}\newline1/\sqrt{3}
-\end{matrix} 
-\right)
+\end{pmatrix} 
 ~~~~
 (\text{eigenvalue is}~1),
 $$
 
 $$
 u _ 1=
-\left(
-\begin{matrix} 
+\begin{pmatrix} 
 1/\sqrt{3}\newline\zeta^{-1}/\sqrt{3}\newline\zeta/\sqrt{3}
-\end{matrix} 
-\right)
+\end{pmatrix} 
 ~~~~
 (\text{eigenvalue is}~\zeta),
 $$
 
 $$
 u _ 2=
-\left(
-\begin{matrix}
+\begin{pmatrix}
 1/\sqrt{3}\newline\zeta/\sqrt{3}\newline\zeta^{-1}/\sqrt{3}
-\end{matrix} 
-\right)
+\end{pmatrix} 
 ~~~~
 (\text{eigenvalue is}~\zeta^{-1}).
 $$
@@ -69,33 +62,27 @@ The eigenvectors of $C _ 3$ are
 
 $$
 w _ 0=
-\left(
-\begin{matrix} 
+\begin{pmatrix} 
 0\newline0\newline1
-\end{matrix} 
-\right)
+\end{pmatrix} 
 ~~~~
 (\text{eigenvalue is}~1),
 $$
 
 $$
 w _ 1=
-\left(
-\begin{matrix} 
+\begin{pmatrix} 
 1/\sqrt{2}\newline-i/\sqrt{2}\newline0
-\end{matrix} 
-\right)
+\end{pmatrix} 
 ~~~~
 (\text{eigenvalue is}~\zeta),
 $$
 
 $$
 w _ 2=
-\left(
-\begin{matrix} 
+\begin{pmatrix} 
 1/\sqrt{2} \newline i/\sqrt{2}\newline0
-\end{matrix} 
-\right)
+\end{pmatrix} 
 ~~~~
 (\text{eigenvalue is}~\zeta^{-1}).
 $$
@@ -129,8 +116,8 @@ $$
 Since these eigenvectors form an orthonormal system, the matrix
 
 $$
-P=\left(
-\begin{matrix} 
+P=
+\begin{pmatrix} 
 u _ 0\otimes w _ 0&
 u _ 1\otimes w _ 2&
 u _ 2\otimes w _ 1&
@@ -140,8 +127,7 @@ u _ 2\otimes w _ 2&
 u _ 0\otimes w _ 2&
 u _ 1\otimes w _ 1&
 u _ 2\otimes w _ 0
-\end{matrix} 
-\right)
+\end{pmatrix} 
 $$
 
 is a unitary matrix.
@@ -151,13 +137,11 @@ can be diagonalized as
 
 $$
 P^\dagger\underline{C} _ 3P
-=\left(
-\begin{matrix} 
+=\begin{pmatrix} 
 I&O&O\newline
 O&\zeta I&O\newline
 O&O&\zeta^{-1}I
-\end{matrix} 
-\right).
+\end{pmatrix}.
 $$
 
 Here,
