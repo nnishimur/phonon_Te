@@ -17,13 +17,13 @@ function main()
     close(fp)
 
     for i = 1:3
-        plot!(kzs, Es[i], xlabel="k_z", ylabel="ω", xlims=(-π, π), ylims=(0, 3), legend=:topleft, label="m = 0", lc=:black)
+        plot!(kzs, Es[i], xlabel="k_z", ylabel="ω", xlims=(-π, π), ylims=(0, 3), legend=:topleft, label=(i == 1 ? "m = 0" : ""), lc=:black)
     end
     for i = 1:3
-        plot!(kzs, Es[i+3], label="m = 1", lc=:red)
+        plot!(kzs, Es[i+3], label=(i == 1 ? "m = 1" : ""), lc=:red)
     end
     for i = 1:3
-        plot!(kzs, Es[i+6], label="m = -1", lc=:blue)
+        plot!(kzs, Es[i+6], label=(i == 1 ? "m = -1" : ""), lc=:blue)
     end
     savefig("phonon.png")
 end
