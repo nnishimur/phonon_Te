@@ -25,7 +25,7 @@ function main()
     for i = 1:3
         plot!(kzs, Es[i+6], label="m = -1", lc=:blue)
     end
-    savefig("phonon.pdf")
+    savefig("phonon.png")
 end
 
 main()
