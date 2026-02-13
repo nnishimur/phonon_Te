@@ -15,6 +15,17 @@ $$
 
 Here,
 $\underline{C} _ 3$
+is screw operation defined as follows:
+
+$$\underline{C} _ 3 = 
+\begin{pmatrix} 
+O&O&C _ 3\newline
+C _ 3&O&O\newline
+O&C _ 3&O
+\end{pmatrix}.
+$$
+
+$\underline{C} _ 3$
 is an orthogonal matrix expressed as
 $\underline{C} _ 3 = T\otimes C _ 3$,
 where
@@ -28,7 +39,7 @@ $$T =
 0&0&1\newline
 1&0&0\newline
 0&1&0
-\end{pmatrix} 
+\end{pmatrix},
 $$
 
 $$
@@ -37,7 +48,7 @@ C _ 3 =
 \cos(2\pi/3)&-\sin(2\pi/3)&0\newline
 \sin(2\pi/3)&\cos(2\pi/3)&0\newline
 0&0&1
-\end{pmatrix} 
+\end{pmatrix}.
 $$
 
 Let $\zeta=e^{2\pi i/3}$.
@@ -150,21 +161,6 @@ P^\dagger\underline{C} _ 3P
 I&O&O\newline
 O&\zeta I&O\newline
 O&O&\zeta^{-1}I
-\end{pmatrix}.
-$$
-
-Here,
-
-$$
-I=\begin{pmatrix} 
-1&0&0\newline
-0&1&0\newline
-0&0&1
-\end{pmatrix},\quad
-O=\begin{pmatrix} 
-0&0&0\newline
-0&0&0\newline
-0&0&0
 \end{pmatrix}.
 $$
 
