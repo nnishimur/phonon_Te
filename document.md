@@ -36,8 +36,8 @@ u _ 0=
 \begin{pmatrix} 
 1/\sqrt{3}\newline1/\sqrt{3}\newline1/\sqrt{3}
 \end{pmatrix} 
-~~~~
-(\text{eigenvalue is}~1),
+\quad
+(\text{eigenvalue is}\,\,1),
 $$
 
 $$
@@ -45,8 +45,8 @@ u _ 1=
 \begin{pmatrix} 
 1/\sqrt{3}\newline\zeta^{-1}/\sqrt{3}\newline\zeta/\sqrt{3}
 \end{pmatrix} 
-~~~~
-(\text{eigenvalue is}~\zeta),
+\quad
+(\text{eigenvalue is}\,\,\zeta),
 $$
 
 $$
@@ -54,8 +54,8 @@ u _ 2=
 \begin{pmatrix}
 1/\sqrt{3}\newline\zeta/\sqrt{3}\newline\zeta^{-1}/\sqrt{3}
 \end{pmatrix} 
-~~~~
-(\text{eigenvalue is}~\zeta^{-1}).
+\quad
+(\text{eigenvalue is}\,\,\zeta^{-1}).
 $$
 
 The eigenvectors of $C _ 3$ are
@@ -65,8 +65,8 @@ w _ 0=
 \begin{pmatrix} 
 0\newline0\newline1
 \end{pmatrix} 
-~~~~
-(\text{eigenvalue is}~1),
+\quad
+(\text{eigenvalue is}\,\,1),
 $$
 
 $$
@@ -74,8 +74,8 @@ w _ 1=
 \begin{pmatrix} 
 1/\sqrt{2}\newline-i/\sqrt{2}\newline0
 \end{pmatrix} 
-~~~~
-(\text{eigenvalue is}~\zeta),
+\quad
+(\text{eigenvalue is}\,\,\zeta),
 $$
 
 $$
@@ -83,8 +83,8 @@ w _ 2=
 \begin{pmatrix} 
 1/\sqrt{2} \newline i/\sqrt{2}\newline0
 \end{pmatrix} 
-~~~~
-(\text{eigenvalue is}~\zeta^{-1}).
+\quad
+(\text{eigenvalue is}\,\,\zeta^{-1}).
 $$
 
 From these, the eigenvectors of
@@ -93,24 +93,24 @@ $\underline{C} _ 3
 can be constructed.
 
 $$
-u _ 0\otimes w _ 0,~
-u _ 1\otimes w _ 2,~
-u _ 2\otimes w _ 1~~~~
-(\text{eigenvalue is}~1)
+u _ 0\otimes w _ 0,\,
+u _ 1\otimes w _ 2,\,
+u _ 2\otimes w _ 1\quad
+(\text{eigenvalue is}\,\,1)
 $$
 
 $$
-u _ 0\otimes w _ 1,~
-u _ 1\otimes w _ 0,~
-u _ 2\otimes w _ 2~~~~
-(\text{eigenvalue is}~\zeta)
+u _ 0\otimes w _ 1,\,
+u _ 1\otimes w _ 0,\,
+u _ 2\otimes w _ 2\quad
+(\text{eigenvalue is}\,\,\zeta)
 $$
 
 $$
-u _ 0\otimes w _ 2,~
-u _ 1\otimes w _ 1,~
-u _ 2\otimes w _ 0~~~~
-(\text{eigenvalue is}~\zeta^{-1})
+u _ 0\otimes w _ 2,\,
+u _ 1\otimes w _ 1,\,
+u _ 2\otimes w _ 0\quad
+(\text{eigenvalue is}\,\,\zeta^{-1})
 $$
 
 Since these eigenvectors form an orthonormal system, the matrix
@@ -147,20 +147,16 @@ $$
 Here,
 
 $$
-I=\left(
-\begin{matrix} 
+I=\begin{pmatrix} 
 1&0&0\newline
 0&1&0\newline
 0&0&1
-\end{matrix} 
-\right),~
-O=\left(
-\begin{matrix} 
+\end{pmatrix},~
+O=\begin{pmatrix} 
 0&0&0\newline
 0&0&0\newline
 0&0&0
-\end{matrix} 
-\right).
+\end{pmatrix}.
 $$
 
 The eigenvalues
@@ -181,11 +177,9 @@ as
 
 $$
 P^\dagger\underline{V} _ {L,1}(k _ z)P
-=\left(
-\begin{matrix} 
+=\begin{pmatrix} 
 D _ 0&O&O\newline
 O&D _ 1&O\newline
 O&O&D _ 2
-\end{matrix} 
-\right).
+\end{pmatrix}.
 $$
