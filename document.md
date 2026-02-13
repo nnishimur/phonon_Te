@@ -10,13 +10,15 @@ using the following translation
 $T$
 and 3-fold rotation
 $C _ 3$.
-$$T = \left(
-\begin{matrix} 
-0&0&1\newline
-1&0&0\newline
+$$T = 
+\begin{pmatrix} 
+0&0&1\\
+1&0&0\\
 0&1&0
-\end{matrix} 
-\right)\newline
+\end{pmatrix} 
+$$
+and
+$$
 C _ 3 = \left(
 \begin{matrix} 
 \cos(2\pi/3)&-\sin(2\pi/3)&0\newline
