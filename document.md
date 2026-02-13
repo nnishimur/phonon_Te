@@ -12,15 +12,15 @@ and 3-fold rotation
 $C _ 3$.
 $$T = \left(
 \begin{matrix} 
-0&0&1\\
-1&0&0\\
+0&0&1\newline
+1&0&0\newline
 0&1&0
 \end{matrix} 
 \right)$$
 $$C _ 3 = \left(
 \begin{matrix} 
-\cos(2\pi/3)&-\sin(2\pi/3)&0\\
-\sin(2\pi/3)&\cos(2\pi/3)&0\\
+\cos(2\pi/3)&-\sin(2\pi/3)&0\newline
+\sin(2\pi/3)&\cos(2\pi/3)&0\newline
 0&0&1
 \end{matrix} 
 \right)$$
@@ -30,7 +30,7 @@ $$
 u _ 0=
 \left(
 \begin{matrix} 
-1/\sqrt{3}\\1/\sqrt{3}\\1/\sqrt{3}
+1/\sqrt{3}\newline1/\sqrt{3}\newline1/\sqrt{3}
 \end{matrix} 
 \right)
 ~~~~
@@ -40,7 +40,7 @@ $$
 u _ 1=
 \left(
 \begin{matrix} 
-1/\sqrt{3}\\\zeta^{-1}/\sqrt{3}\\\zeta/\sqrt{3}
+1/\sqrt{3}\newline\zeta^{-1}/\sqrt{3}\newline\zeta/\sqrt{3}
 \end{matrix} 
 \right)
 ~~~~
@@ -50,7 +50,7 @@ $$
 u _ 2=
 \left(
 \begin{matrix}
-1/\sqrt{3}\\\zeta/\sqrt{3}\\\zeta^{-1}/\sqrt{3}
+1/\sqrt{3}\newline\zeta/\sqrt{3}\newline\zeta^{-1}/\sqrt{3}
 \end{matrix} 
 \right)
 ~~~~
@@ -61,7 +61,7 @@ $$
 w _ 0=
 \left(
 \begin{matrix} 
-0\\0\\1
+0\newline0\newline1
 \end{matrix} 
 \right)
 ~~~~
@@ -71,7 +71,7 @@ $$
 w _ 1=
 \left(
 \begin{matrix} 
-1/\sqrt{2}\\-i/\sqrt{2}\\0
+1/\sqrt{2}\newline-i/\sqrt{2}\newline0
 \end{matrix} 
 \right)
 ~~~~
@@ -81,7 +81,7 @@ $$
 w _ 2=
 \left(
 \begin{matrix} 
-1/\sqrt{2} \\i/\sqrt{2}\\0
+1/\sqrt{2} \newline i/\sqrt{2}\newline0
 \end{matrix} 
 \right)
 ~~~~
@@ -133,8 +133,8 @@ $$
 P^\dagger\underline{C} _ 3P
 =\left(
 \begin{matrix} 
-I&O&O\\
-O&\zeta I&O\\
+I&O&O\newline
+O&\zeta I&O\newline
 O&O&\zeta^{-1}I
 \end{matrix} 
 \right).
@@ -143,15 +143,15 @@ Here,
 $$
 I=\left(
 \begin{matrix} 
-1&0&0\\
-0&1&0\\
+1&0&0\newline
+0&1&0\newline
 0&0&1
 \end{matrix} 
 \right),~
 O=\left(
 \begin{matrix} 
-0&0&0\\
-0&0&0\\
+0&0&0\newline
+0&0&0\newline
 0&0&0
 \end{matrix} 
 \right).
@@ -175,8 +175,8 @@ $$
 P^\dagger\underline{V} _ {L,1}(k _ z)P
 =\left(
 \begin{matrix} 
-D _ 0&O&O\\
-O&D _ 1&O\\
+D _ 0&O&O\newline
+O&D _ 1&O\newline
 O&O&D _ 2
 \end{matrix} 
 \right).
