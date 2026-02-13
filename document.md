@@ -116,21 +116,21 @@ $$
 u _ 0\otimes w _ 0,\quad
 u _ 1\otimes w _ 2,\quad
 u _ 2\otimes w _ 1\quad
-(\text{eigenvalue is}\quad1)
+(\text{eigenvalue is}\quad1),
 $$
 
 $$
 u _ 0\otimes w _ 1,\quad
 u _ 1\otimes w _ 0,\quad
 u _ 2\otimes w _ 2\quad
-(\text{eigenvalue is}\quad\zeta)
+(\text{eigenvalue is}\quad\zeta),
 $$
 
 $$
 u _ 0\otimes w _ 2,\quad
 u _ 1\otimes w _ 1,\quad
 u _ 2\otimes w _ 0\quad
-(\text{eigenvalue is}\quad\zeta^{-1})
+(\text{eigenvalue is}\quad\zeta^{-1}).
 $$
 
 Since these eigenvectors form an orthonormal basis, the matrix
