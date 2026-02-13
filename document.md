@@ -1,17 +1,27 @@
-# Block diagonalization of the dynamical matrix by crystal angular momentum (CAM)
-Due to screw symmetry, the following equation holds for the dynamical matrix
-$\underline{V} _ {L,1}(k _ z)$.
+# Block diagonalization of the dynamical matrix using crystal angular momentum (CAM)
+Due to screw symmetry, the dynamical matrix $\underline{V}_{L,1}(k_z)$ satisfies the following relation:
 
-$$\underline{V} _ {L,1}(k _ z)
-=\underline{C} _ 3\underline{V} _ {L,1}(k _ z)\underline{C} _ 3^{\mathrm{T}}$$
+$$
+\underline{V} _ {L,1}(k _ z)
+=\underline{C} _ 3\underline{V} _ {L,1}(k _ z)\underline{C} _ 3^{\mathrm{T}}
+$$
 
-Here, $\underline{C} _ 3$ can be written as
-$\underline{C} _ 3
-=T\otimes C _ 3$
-using the following translation
+or equivalently,
+
+$$
+\underline{V} _ {L,1}(k _ z)\underline{C} _ 3
+=\underline{C} _ 3\underline{V} _ {L,1}(k _ z).
+$$
+
+Here,
+$\underline{C} _ 3$
+is an orthogonal matrix expressed as
+$\underline{C} _ 3 = T\otimes C _ 3$,
+where
 $T$
-and 3-fold rotation
-$C _ 3$.
+is the translation matrix and 
+$C _ 3$
+is the 3-fold rotation matrix, defined as follows:
 
 $$T = 
 \begin{pmatrix} 
@@ -31,7 +41,7 @@ C _ 3 =
 $$
 
 Let $\zeta=e^{2\pi i/3}$.
-The eigenvectors of $T$ are
+The eigenvectors of $T$ are given by:
 
 $$
 u _ 0=
@@ -60,7 +70,7 @@ u _ 2=
 (\text{eigenvalue is}\quad\zeta^{-1}).
 $$
 
-The eigenvectors of $C _ 3$ are
+The eigenvectors of $C_3$ are given by:
 
 $$
 w _ 0=
@@ -89,10 +99,7 @@ w _ 2=
 (\text{eigenvalue is}\quad\zeta^{-1}).
 $$
 
-From these, the eigenvectors of
-$\underline{C} _ 3
-=T\otimes C _ 3$
-can be constructed.
+From these, we can construct the eigenvectors of $\underline{C} _ 3 = T\otimes C _ 3$:
 
 $$
 u _ 0\otimes w _ 0,\quad
@@ -115,7 +122,7 @@ u _ 2\otimes w _ 0\quad
 (\text{eigenvalue is}\quad\zeta^{-1})
 $$
 
-Since these eigenvectors form an orthonormal system, the matrix
+Since these eigenvectors form an orthonormal basis, the matrix
 
 $$
 P=
@@ -132,10 +139,10 @@ u _ 2\otimes w _ 0
 \end{pmatrix} 
 $$
 
-is a unitary matrix.
-Using this,
+is unitary.
+Using this matrix,
 $\underline{C} _ 3$
-can be diagonalized as
+can be diagonalized as:
 
 $$
 P^\dagger\underline{C} _ 3P
@@ -164,18 +171,19 @@ $$
 The eigenvalues
 $1, \zeta, \zeta^{-1}$
 of
-$\underline{C} _ 3$
+$\underline{C}_3$
 correspond to the crystal angular momenta (CAM)
-$m=0, 1, -1$.
+$m=0, 1, -1$,
+respectively.
 Since
 $\underline{V} _ {L,1}(k _ z)$
 and
 $\underline{C} _ 3$
 commute,
 $\underline{V} _ {L,1}(k _ z)$
-can be block diagonalized using
+can be block-diagonalized using
 $P$
-as
+as follows:
 
 $$
 P^\dagger\underline{V} _ {L,1}(k _ z)P
