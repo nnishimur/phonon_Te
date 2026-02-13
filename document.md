@@ -12,8 +12,8 @@ and 3-fold rotation
 $C _ 3$.
 $$T = 
 \begin{pmatrix} 
-0&0&1\\
-1&0&0\\
+0&0&1\newline
+1&0&0\newline
 0&1&0
 \end{pmatrix} 
 $$
