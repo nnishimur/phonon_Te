@@ -10,6 +10,7 @@ using the following translation
 $T$
 and 3-fold rotation
 $C _ 3$.
+
 $$T = 
 \begin{pmatrix} 
 0&0&1\newline
