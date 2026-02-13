@@ -1,5 +1,4 @@
 using Plots
-using Printf
 
 function main()
     filename = "phonon.txt"
