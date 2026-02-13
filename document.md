@@ -16,8 +16,8 @@ $$T = \left(
 1&0&0\newline
 0&1&0
 \end{matrix} 
-\right)$$
-$$C _ 3 = \left(
+\right)\newline
+C _ 3 = \left(
 \begin{matrix} 
 \cos(2\pi/3)&-\sin(2\pi/3)&0\newline
 \sin(2\pi/3)&\cos(2\pi/3)&0\newline
