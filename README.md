@@ -7,4 +7,4 @@ doi:10.7566/JPSJ.92.023601.
 Prepare `main.cpp` and `plot.jl`, then execute `phonon.sh` (or manually run the commands contained in `phonon.sh`).
 The plot of the calculation results is output as `phonon.png` like below.
 
-![phonon.png](phonon.png)
+![phonon](phonon.png)
